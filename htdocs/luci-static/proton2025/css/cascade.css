@@ -52,15 +52,15 @@
 }
 
 :root {
-    --proton-bg: linear-gradient(135deg, #0f1419 0%, #1a1f2e 100%);
-    --proton-bg-solid: #0f1419;
+    --proton-bg: linear-gradient(135deg, #1d1d1f 0%, #161618 100%);
+    --proton-bg-solid: #1d1d1f;
     --proton-bg-secondary: rgba(255, 255, 255, 0.03);
     --proton-bg-tertiary: rgba(255, 255, 255, 0.025);
     --proton-bg-hover: rgba(255, 255, 255, 0.05);
     --proton-pattern-fg: rgba(var(--proton-accent-rgb), 0.04);
 
-    --proton-card-solid: #161c26;
-    --proton-card-rgb: 22, 28, 38;
+    --proton-card-solid: #000000;
+    --proton-card-rgb: 0, 0, 0;
 
     --proton-bg-image:
         radial-gradient(circle at 20% 30%, rgba(var(--proton-accent-rgb), 0.06) 0%, transparent 50%),
@@ -76,9 +76,9 @@
     --proton-pattern-light-line: rgba(15, 23, 42, 0.03);
     --proton-pattern-light-dot: rgba(15, 23, 42, 0.05);
 
-    --proton-fg: #f5f7fa;
-    --proton-fg-secondary: #c5cad5;
-    --proton-muted: #9299a8;
+    --proton-fg: #f5f5f7;
+    --proton-fg-secondary: #a1a1a6;
+    --proton-muted: #86868b;
 
     --proton-text: var(--proton-fg);
     --proton-text-primary: var(--proton-fg);
@@ -88,23 +88,23 @@
     --proton-input-height: 1.5;
     --proton-vv-height: 100dvh;
 
-    --proton-accent: #5e9eff;
-    --proton-accent-hover: #7db2ff;
-    --proton-accent-glow: rgba(94, 158, 255, 0.18);
-    --proton-accent-rgb: 94, 158, 255;
+    --proton-accent: #f5f5f7;
+    --proton-accent-hover: #ffffff;
+    --proton-accent-glow: rgba(245, 245, 247, 0.10);
+    --proton-accent-rgb: 245, 245, 247;
 
-    --proton-success: #6bcf7f;
-    --proton-warning: #ffd93d;
-    --proton-danger: #ff6b6b;
+    --proton-success: #30d158;
+    --proton-warning: #ff9f0a;
+    --proton-danger: #ff453a;
 
-    --proton-border: rgba(255, 255, 255, 0.06);
-    --proton-border-light: rgba(255, 255, 255, 0.03);
+    --proton-border: rgba(245, 245, 247, 0.08);
+    --proton-border-light: rgba(245, 245, 247, 0.04);
     --proton-scrollbar-thumb: rgba(255, 255, 255, 0.14);
     --proton-scrollbar-thumb-hover: rgba(255, 255, 255, 0.26);
-    --proton-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
-    --proton-shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.15);
-    --proton-shadow-md: 0 4px 16px rgba(0, 0, 0, 0.2);
-    --proton-shadow-lg: 0 8px 32px rgba(0, 0, 0, 0.3);
+    --proton-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+    --proton-shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.2);
+    --proton-shadow-md: 0 2px 4px rgba(0, 0, 0, 0.25);
+    --proton-shadow-lg: 0 4px 8px rgba(0, 0, 0, 0.3);
     --proton-tooltip-bg: rgba(18, 22, 30, 0.94);
     --proton-tooltip-border: rgba(255, 255, 255, 0.09);
     --proton-tooltip-shadow: 0 12px 32px rgba(0, 0, 0, 0.28);
@@ -113,7 +113,7 @@
 
     --proton-radius: 12px;
     --proton-radius-sm: 8px;
-    --proton-radius-lg: 16px;
+    --proton-radius-lg: 12px;
     --proton-transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
 
     --proton-page-max-width: 1200px;
@@ -124,58 +124,58 @@
     --proton-menu-width-collapsed: 72px;
     --proton-menu-speed: 0.18s;
 
-    --main-bright-color: #5e9eff;
-    --main-dark-color: #0f1419;
-    --secondary-bright-color: #f5f7fa;
-    --secondary-dark-color: #1a1f2e;
-    --danger-color: #f87171;
-    --warning-color: #fbbf24;
-    --success-color: #34d399;
+    --main-bright-color: #f5f5f7;
+    --main-dark-color: #1d1d1f;
+    --secondary-bright-color: #f5f5f7;
+    --secondary-dark-color: #000000;
+    --danger-color: #ff453a;
+    --warning-color: #ff9f0a;
+    --success-color: #30d158;
 
     color-scheme: dark;
 
     --background-color-high: var(--proton-bg-solid);
-    --background-color-medium: #1a1f2e;
-    --background-color-low: #23293d;
+    --background-color-medium: #000000;
+    --background-color-low: #424245;
 
-    --text-color-highest: #ffffff;
+    --text-color-highest: #f5f5f7;
     --text-color-high: var(--proton-fg);
     --text-color-medium: var(--proton-fg-secondary);
     --text-color-low: var(--proton-muted);
 
-    --border-color-high: rgba(255, 255, 255, 0.14);
-    --border-color-medium: rgba(255, 255, 255, 0.08);
-    --border-color-low: rgba(255, 255, 255, 0.05);
+    --border-color-high: rgba(245, 245, 247, 0.16);
+    --border-color-medium: rgba(245, 245, 247, 0.10);
+    --border-color-low: rgba(245, 245, 247, 0.06);
 
     --primary-color-high: var(--proton-accent);
     --primary-color-medium: var(--proton-accent-hover);
-    --primary-color-low: rgba(94, 158, 255, 0.35);
-    --on-primary-color: #ffffff;
+    --primary-color-low: rgba(245, 245, 247, 0.25);
+    --on-primary-color: #1d1d1f;
 
-    --error-color-high-rgb: 255, 107, 107;
+    --error-color-high-rgb: 255, 69, 58;
     --error-color-high: rgb(var(--error-color-high-rgb));
-    --error-color-medium: #e53e3e;
-    --error-color-low: #c53030;
+    --error-color-medium: #ff453a;
+    --error-color-low: #d70015;
     --on-error-color: #ffffff;
 
-    --success-color-high-rgb: 107, 207, 127;
+    --success-color-high-rgb: 48, 209, 88;
     --success-color-high: rgb(var(--success-color-high-rgb));
-    --success-color-medium: #38a169;
-    --success-color-low: #2f855a;
-    --on-success-color: #0f1419;
+    --success-color-medium: #30d158;
+    --success-color-low: #248a3d;
+    --on-success-color: #1d1d1f;
 
-    --warn-color-high: #ffd93d;
-    --warn-color-medium: #fbbf24;
-    --warn-color-low: #f59e0b;
-    --on-warn-color: #0f1419;
+    --warn-color-high: #ff9f0a;
+    --warn-color-medium: #ff9f0a;
+    --warn-color-low: #d17800;
+    --on-warn-color: #1d1d1f;
 
     --background-color-delta-l-sign: 1;
-    --background-color-h: 210;
-    --background-color-s: 25%;
-    --background-color-l: 8%;
-    --background-color-high-hsl: 210, 25%, 8%;
-    --background-color-medium-hsl: 225, 28%, 14%;
-    --background-color-low-hsl: 226, 27%, 19%;
+    --background-color-h: 240;
+    --background-color-s: 8%;
+    --background-color-l: 12%;
+    --background-color-high-hsl: 240, 8%, 12%;
+    --background-color-medium-hsl: 240, 8%, 8%;
+    --background-color-low-hsl: 240, 4%, 27%;
 
     --text-color-highest-hsl: 0, 0%, 100%;
     --text-color-high-hsl: 220, 30%, 97%;
@@ -191,7 +191,7 @@
 }
 
 :root[data-theme="light"] {
-    --proton-bg: linear-gradient(135deg, #ffffff 0%, #f8f9fa 100%);
+    --proton-bg: linear-gradient(135deg, #ffffff 0%, #f5f5f7 100%);
     --proton-bg-solid: #ffffff;
     --proton-bg-secondary: rgba(0, 0, 0, 0.03);
     --proton-bg-tertiary: rgba(0, 0, 0, 0.02);
@@ -204,18 +204,18 @@
         radial-gradient(circle at 80% 70%, rgba(var(--proton-accent-rgb), 0.025) 0%, transparent 50%),
         var(--proton-bg);
 
-    --proton-fg: #1a1d29;
-    --proton-fg-secondary: #4a5568;
-    --proton-muted: #5a6270;
+    --proton-fg: #1d1d1f;
+    --proton-fg-secondary: #6e6e73;
+    --proton-muted: #86868b;
 
-    --proton-accent: #4b5563;
-    --proton-accent-hover: #374151;
-    --proton-accent-glow: rgba(75, 85, 99, 0.22);
-    --proton-accent-rgb: 75, 85, 99;
+    --proton-accent: #454a51;
+    --proton-accent-hover: #3a3a3a;
+    --proton-accent-glow: rgba(69, 74, 81, 0.12);
+    --proton-accent-rgb: 69, 74, 81;
 
-    --proton-success: #38a169;
-    --proton-warning: #c05621;
-    --proton-danger: #e53e3e;
+    --proton-success: #34c759;
+    --proton-warning: #ff9500;
+    --proton-danger: #ff3b30;
 
     --proton-border: rgba(0, 0, 0, 0.12);
     --proton-border-light: rgba(0, 0, 0, 0.06);
@@ -232,7 +232,7 @@
     --proton-chart-guide: rgba(26, 29, 41, 0.22);
     --proton-chart-point-ring: rgba(255, 255, 255, 0.96);
 
-    --main-bright-color: #4b5563;
+    --main-bright-color: #454a51;
     --main-dark-color: #ffffff;
     --secondary-bright-color: #ffffff;
     --secondary-dark-color: #f8f9fa;
@@ -240,13 +240,13 @@
     color-scheme: light;
 
     --background-color-high: #ffffff;
-    --background-color-medium: #f3f4f6;
-    --background-color-low: #e5e7eb;
+    --background-color-medium: #f5f5f7;
+    --background-color-low: #d2d2d7;
 
-    --text-color-highest: #111827;
-    --text-color-high: #111827;
-    --text-color-medium: #374151;
-    --text-color-low: #6b7280;
+    --text-color-highest: #1d1d1f;
+    --text-color-high: #1d1d1f;
+    --text-color-medium: #6e6e73;
+    --text-color-low: #86868b;
 
     --border-color-high: rgba(0, 0, 0, 0.16);
     --border-color-medium: rgba(0, 0, 0, 0.10);
@@ -255,15 +255,15 @@
     --primary-color-high: var(--proton-accent);
     --primary-color-medium: var(--proton-accent-hover);
     --primary-color-low: rgba(75, 85, 99, 0.25);
-    --on-primary-color: #ffffff;
+    --on-primary-color: #1d1d1f;
 
-    --error-color-high-rgb: 229, 62, 62;
+    --error-color-high-rgb: 255, 59, 48;
     --error-color-high: rgb(var(--error-color-high-rgb));
-    --error-color-medium: #dc2626;
-    --error-color-low: #b91c1c;
+    --error-color-medium: #ff3b30;
+    --error-color-low: #d70015;
     --on-error-color: #ffffff;
 
-    --success-color-high-rgb: 56, 161, 105;
+    --success-color-high-rgb: 52, 199, 89;
     --success-color-high: rgb(var(--success-color-high-rgb));
     --success-color-medium: #2f855a;
     --success-color-low: #276749;
@@ -542,7 +542,7 @@ a:active {
     backdrop-filter: blur(20px);
     -webkit-backdrop-filter: blur(20px);
     border-bottom: 1px solid var(--proton-border);
-    box-shadow: var(--proton-shadow-sm);
+    box-shadow: 0 1px 2px rgba(0,0,0,0.2);
     position: sticky;
     top: 0;
     z-index: 1000;
@@ -668,9 +668,9 @@ a:active {
         border-radius 0.25s ease !important;
 }
 
-.proton-search-input:focus {
+.proton-search-input:focus { outline: none; box-shadow: 0 0 0 3px color-mix(in srgb, var(--proton-accent) 16%, transparent); 
     border-color: var(--proton-accent) !important;
-    box-shadow: 0 0 0 3px rgba(var(--proton-accent-rgb, 94, 158, 255), 0.15) !important;
+    box-shadow: 0 0 0 3px rgba(var(--proton-accent-rgb, 245, 245, 247), 0.15) !important;
 }
 
 .proton-search-wrapper:focus-within .proton-search-input::placeholder,
@@ -694,7 +694,7 @@ a:active {
     border: 1px solid var(--proton-border);
     border-top: 2px solid var(--proton-accent);
     border-radius: var(--proton-radius);
-    box-shadow: var(--proton-shadow-md);
+    box-shadow: none;
     z-index: 1001;
     animation: proton-search-drop 0.18s cubic-bezier(0.4, 0, 0.2, 1) both;
 }
@@ -746,7 +746,7 @@ a:active {
 
 .proton-search-result-item:hover,
 .proton-search-result-item.selected {
-    background: rgba(var(--proton-accent-rgb, 94, 158, 255), 0.08);
+    background: rgba(var(--proton-accent-rgb, 245, 245, 247), 0.08);
     border-left-color: var(--proton-accent);
     color: var(--proton-text-primary) !important;
     transform: none;
@@ -950,6 +950,8 @@ html.proton-hostname-logo #menubar-inner .hostname::before {
 #menubar a:hover,
 #mainmenu a:hover {
     transform: none;
+    background: color-mix(in srgb, var(--proton-fg) 5%, transparent);
+    border-radius: 8px;
 }
 
 #menubar a,
@@ -1312,22 +1314,23 @@ button, .btn {
     align-items: center;
     justify-content: center;
     gap: 8px;
-    padding: 10px 20px;
+    padding: 8px 16px;
     background: var(--proton-accent);
-    color: #fff;
+    color: var(--on-primary-color);
     font-weight: 500;
-    font-size: 0.9rem;
+    font-size: 14px;
     font-family: inherit;
-    border: none;
-    border-radius: var(--proton-radius);
+    border: 1px solid transparent;
+    border-radius: 8px;
     cursor: pointer;
     transition: var(--proton-transition);
     white-space: nowrap;
 }
 
 button:hover, .btn:hover {
-    transform: translateY(-1px);
-    box-shadow: var(--proton-shadow-md);
+    background: color-mix(in srgb, var(--proton-fg) 90%, var(--proton-bg-solid));
+    transform: none;
+    box-shadow: none;
 }
 
 button:active, .btn:active {
@@ -1357,7 +1360,7 @@ button+button, .btn+.btn, .cbi-button+.cbi-button {
 }
 
 .cbi-button:hover {
-    background: var(--proton-bg-hover);
+    background: color-mix(in srgb, var(--proton-fg) 5%, transparent);
     border-color: var(--proton-accent);
     box-shadow: none;
     transform: none;
@@ -1539,7 +1542,7 @@ button.important, .btn.important {
 .cbi-button-edit:hover {
     background: var(--proton-bg-hover);
     border-color: var(--proton-accent);
-    box-shadow: var(--proton-shadow-sm);
+    box-shadow: 0 1px 2px rgba(0,0,0,0.2);
 }
 
 :root[data-theme="light"] .cbi-button-edit:hover {
@@ -1670,7 +1673,7 @@ textarea:focus {
     outline: none;
     border-color: var(--proton-accent);
     background: var(--proton-bg-hover);
-    box-shadow: 0 0 0 3px var(--proton-accent-glow);
+    box-shadow: 0 0 0 3px color-mix(in srgb, var(--proton-accent) 16%, transparent);
 }
 
 input:hover:not([disabled]),
@@ -1915,7 +1918,7 @@ input[type="range"]:focus::-moz-range-thumb {
     border-radius: var(--proton-radius);
     padding: 20px;
     margin-bottom: 24px;
-    box-shadow: var(--proton-shadow-sm);
+    box-shadow: 0 1px 2px rgba(0,0,0,0.2);
     transition: var(--proton-transition);
 }
 
@@ -1927,7 +1930,7 @@ input[type="range"]:focus::-moz-range-thumb {
 
 .cbi-section:hover {
     border-color: var(--proton-border);
-    box-shadow: var(--proton-shadow-md);
+    box-shadow: none;
 }
 
 :root[data-theme="light"] .cbi-section:hover {
@@ -2040,7 +2043,7 @@ table {
     background: var(--proton-bg-secondary);
     border-radius: var(--proton-radius);
     overflow: hidden;
-    box-shadow: var(--proton-shadow-sm);
+    box-shadow: 0 1px 2px rgba(0,0,0,0.2);
     margin-bottom: 24px;
 }
 
@@ -3443,7 +3446,7 @@ table.assoclist td[data-title="RX Rate / TX Rate"i] {
     min-height: 40px;
     background: var(--proton-bg-tertiary);
     border: 1px solid var(--proton-border);
-    box-shadow: var(--proton-shadow-sm);
+    box-shadow: 0 1px 2px rgba(0,0,0,0.2);
     margin: 0;
     padding: 0 12px;
     border-radius: var(--proton-radius-sm);
@@ -3484,7 +3487,7 @@ table.assoclist td[data-title="RX Rate / TX Rate"i] {
 
 .cbi-dynlist>.item:hover {
     border-color: var(--proton-border);
-    box-shadow: var(--proton-shadow-md);
+    box-shadow: none;
 }
 
 .cbi-dynlist>.add-item {
@@ -3934,7 +3937,7 @@ html.proton-tabs-proton #packages .cbi-tabmenu li.active a {
     background: #1e2530 !important;
     border: 1px solid rgba(255, 255, 255, 0.15);
     border-radius: var(--proton-radius-sm);
-    box-shadow: var(--proton-shadow);
+    box-shadow: none;
     z-index: 10001;
     max-height: 300px;
     overflow-y: auto;
@@ -4539,7 +4542,7 @@ html.proton-tabs-proton #packages .cbi-tabmenu li.active a {
     font-size: 12px;
     line-height: 1.45;
     color: var(--proton-fg);
-    box-shadow: var(--proton-shadow-md);
+    box-shadow: none;
     max-width: 300px;
     opacity: 0;
     transition: opacity 0.2s ease;
@@ -4662,7 +4665,7 @@ body.modal-overlay-active #modal_overlay {
     background: rgba(20, 25, 35, 0.98);
     border: 1px solid var(--proton-border);
     border-radius: var(--proton-radius-lg);
-    box-shadow: var(--proton-shadow-md);
+    box-shadow: none;
     width: 90%;
     max-width: 800px;
     max-height: none;
@@ -4674,7 +4677,7 @@ body.modal-overlay-active #modal_overlay {
 
 :root[data-theme="light"] #modal_overlay>.modal {
     background: rgba(255, 255, 255, 0.98);
-    box-shadow: var(--proton-shadow-md);
+    box-shadow: none;
 }
 
 #modal_overlay>.modal:has(.cbi-section),
@@ -4747,8 +4750,8 @@ body.modal-overlay-active #modal_overlay {
     color: #fff !important;
 }
 
-#modal_overlay .zonebadge[style*="94, 158, 255"],
-#modal_overlay .zonebadge[style*="rgb(94, 158, 255"] {
+#modal_overlay .zonebadge[style*="245, 245, 247"],
+#modal_overlay .zonebadge[style*="rgb(245, 245, 247"] {
     background: linear-gradient(135deg, #3498db 0%, #2980b9 100%) !important;
     color: #fff !important;
 }
@@ -8213,7 +8216,7 @@ body.modal-overlay-active #modal_overlay {
 .proton-reboot-modal .cbi-button:hover,
 .proton-confirm-modal .cbi-button:hover {
     transform: translateY(-1px);
-    box-shadow: var(--proton-shadow-md);
+    box-shadow: none;
 }
 
 .proton-reboot-modal .cbi-button:active,
@@ -8702,7 +8705,7 @@ body.modal-overlay-active #modal_overlay {
 }
 
 .proton-search-index-log-toggle:focus-visible {
-    outline: 2px solid rgba(var(--proton-accent-rgb, 94, 158, 255), 0.42);
+    outline: 2px solid rgba(var(--proton-accent-rgb, 245, 245, 247), 0.42);
     outline-offset: 6px;
     border-radius: 8px;
 }
@@ -8742,9 +8745,9 @@ body.modal-overlay-active #modal_overlay {
     gap: 0.55rem;
     margin-top: 0.55rem;
     padding: 0.58rem 0.72rem;
-    border: 1px solid rgba(var(--proton-accent-rgb, 94, 158, 255), 0.18);
+    border: 1px solid rgba(var(--proton-accent-rgb, 245, 245, 247), 0.18);
     border-radius: calc(var(--proton-radius) - 2px);
-    background: rgba(var(--proton-accent-rgb, 94, 158, 255), 0.09);
+    background: rgba(var(--proton-accent-rgb, 245, 245, 247), 0.09);
     color: var(--proton-text);
     font-size: 0.82rem;
     line-height: 1.45;
@@ -8758,7 +8761,7 @@ body.modal-overlay-active #modal_overlay {
     margin-top: 0.28rem;
     border-radius: 999px;
     background: var(--proton-accent);
-    box-shadow: 0 0 0 5px rgba(var(--proton-accent-rgb, 94, 158, 255), 0.14);
+    box-shadow: 0 0 0 5px rgba(var(--proton-accent-rgb, 245, 245, 247), 0.14);
 }
 
 .proton-search-index-log-list {
@@ -8794,7 +8797,7 @@ body.modal-overlay-active #modal_overlay {
 }
 
 .proton-search-index-log-entry-info {
-    box-shadow: inset 2px 0 0 rgba(var(--proton-accent-rgb, 94, 158, 255), 0.58);
+    box-shadow: inset 2px 0 0 rgba(var(--proton-accent-rgb, 245, 245, 247), 0.58);
 }
 
 .proton-search-index-log-entry-success {
@@ -8889,8 +8892,8 @@ body.modal-overlay-active #modal_overlay {
     height: 100%;
     transform: scaleX(0);
     transform-origin: left center;
-    background: linear-gradient(90deg, var(--proton-accent) 0%, rgba(var(--proton-accent-rgb, 94, 158, 255), 0.65) 100%);
-    box-shadow: 0 0 14px rgba(var(--proton-accent-rgb, 94, 158, 255), 0.45);
+    background: linear-gradient(90deg, var(--proton-accent) 0%, rgba(var(--proton-accent-rgb, 245, 245, 247), 0.65) 100%);
+    box-shadow: 0 0 14px rgba(var(--proton-accent-rgb, 245, 245, 247), 0.45);
     transition: transform 0.18s linear, opacity 0.2s ease;
 }
 
@@ -9502,7 +9505,7 @@ body.login-page {
     padding-right: 44px;
 }
 
-.login-form input:focus {
+.login-form input:focus { outline: none; box-shadow: 0 0 0 3px color-mix(in srgb, var(--proton-accent) 16%, transparent); 
     outline: none;
     border-color: var(--proton-accent);
     background: var(--proton-bg-secondary);
@@ -10049,7 +10052,7 @@ body.proton-custom-page .cbi-section-table-descr .th:empty {
 
 .proton-log-stat-notice {
     color: #5e9eff;
-    background: rgba(94, 158, 255, 0.10);
+    background: rgba(245, 245, 247, 0.10);
 }
 
 .proton-log-actions {
@@ -10394,7 +10397,7 @@ body.proton-log-fs-active #maincontainer {
 
 .proton-log-level-notice {
     color: #5e9eff;
-    background: rgba(94, 158, 255, 0.08);
+    background: rgba(245, 245, 247, 0.08);
 }
 
 .proton-log-level-info {
@@ -10534,7 +10537,7 @@ body.proton-log-fs-active #maincontainer {
     background-color: rgba(255, 255, 255, 0.06);
 }
 
-.proton-log-filter-select:focus {
+.proton-log-filter-select:focus { outline: none; box-shadow: 0 0 0 3px color-mix(in srgb, var(--proton-accent) 16%, transparent); 
     outline: none;
     border-color: var(--proton-accent);
     box-shadow: 0 0 0 2px var(--proton-accent-glow);
@@ -10569,7 +10572,7 @@ body.proton-log-fs-active #maincontainer {
     border-color: var(--proton-accent);
 }
 
-.proton-log-filter-input:focus {
+.proton-log-filter-input:focus { outline: none; box-shadow: 0 0 0 3px color-mix(in srgb, var(--proton-accent) 16%, transparent); 
     outline: none;
     border-color: var(--proton-accent);
     box-shadow: 0 0 0 2px var(--proton-accent-glow);
@@ -10942,7 +10945,7 @@ body.proton-log-fs-active #maincontainer {
 }
 
 :root[data-theme="light"] .proton-log-filter-select:focus,
-:root[data-theme="light"] .proton-log-filter-input:focus {
+:root[data-theme="light"] .proton-log-filter-input:focus { outline: none; box-shadow: 0 0 0 3px color-mix(in srgb, var(--proton-accent) 16%, transparent); 
     background: #ffffff;
     box-shadow: 0 0 0 2px rgba(75, 85, 99, 0.15);
 }
@@ -11224,4 +11227,178 @@ body.login-page .login-password-toggle:focus-visible {
         transition-duration: 0.01ms !important;
         scroll-behavior: auto !important;
     }
+}
+
+
+/* ============================================================
+   Proton2025 -> zashboard Apple 风格覆盖层 (dark 主题)
+   仅作用于默认 dark（:root 无 data-theme="light"），不影响 light 主题
+   ============================================================ */
+
+/* 按钮：圆角 8px、无深度阴影、主按钮近白底+深色字(primary-content) */
+:root:not([data-theme="light"]) button,
+:root:not([data-theme="light"]) .btn {
+    border-radius: var(--proton-radius-sm);
+    box-shadow: none;
+    transform: none;
+    color: var(--on-primary-color);
+}
+:root:not([data-theme="light"]) button:hover,
+:root:not([data-theme="light"]) .btn:hover {
+    transform: none;
+    box-shadow: none;
+    background: var(--proton-accent-hover);
+}
+:root:not([data-theme="light"]) button:active,
+:root:not([data-theme="light"]) .btn:active {
+    transform: none;
+}
+:root:not([data-theme="light"]) .cbi-button {
+    box-shadow: none;
+    transform: none;
+    border-radius: var(--proton-radius-sm);
+}
+:root:not([data-theme="light"]) .cbi-button:hover {
+    border-color: rgba(245, 245, 247, 0.3);
+    box-shadow: none;
+    transform: none;
+}
+:root:not([data-theme="light"]) .cbi-button-apply,
+:root:not([data-theme="light"]) .cbi-button-positive,
+:root:not([data-theme="light"]) .cbi-button-action,
+:root:not([data-theme="light"]) .cbi-button-add,
+:root:not([data-theme="light"]) .btn.cbi-button-action,
+:root:not([data-theme="light"]) button.important,
+:root:not([data-theme="light"]) .cbi-button-action.important,
+:root:not([data-theme="light"]) .cbi-button-save.important {
+    color: var(--on-primary-color);
+}
+:root:not([data-theme="light"]) .cbi-button-apply:hover,
+:root:not([data-theme="light"]) .cbi-button-positive:hover {
+    color: var(--on-primary-color);
+    opacity: 0.85;
+}
+:root:not([data-theme="light"]) .cbi-button-add {
+    color: var(--on-success-color);
+}
+:root:not([data-theme="light"]) .cbi-button-add:hover {
+    background: rgba(48, 209, 88, 0.85);
+    border-color: rgba(48, 209, 88, 0.85);
+    color: var(--on-success-color);
+}
+:root:not([data-theme="light"]) .cbi-button-remove,
+:root:not([data-theme="light"]) .cbi-button-negative,
+:root:not([data-theme="light"]) .btn.cbi-button-negative {
+    background: rgba(255, 69, 58, 0.1);
+    border-color: rgba(255, 69, 58, 0.3);
+    color: var(--proton-danger);
+}
+:root:not([data-theme="light"]) .cbi-button-remove:hover,
+:root:not([data-theme="light"]) .cbi-button-negative:hover,
+:root:not([data-theme="light"]) .btn.cbi-button-negative:hover {
+    background: rgba(255, 69, 58, 0.18);
+    border-color: rgba(255, 69, 58, 0.5);
+    color: var(--proton-danger);
+}
+:root:not([data-theme="light"]) .cbi-button-negative.important {
+    background: rgba(255, 69, 58, 0.1) !important;
+    border-color: rgba(255, 69, 58, 0.3) !important;
+    color: var(--proton-danger) !important;
+}
+
+/* 输入框/选择框：hover 边框变亮到 18%，focus 用 primary 16% 柔光环 */
+:root:not([data-theme="light"]) input:not([type]):hover,
+:root:not([data-theme="light"]) input[type="text"]:hover,
+:root:not([data-theme="light"]) input[type="password"]:hover,
+:root:not([data-theme="light"]) input[type="number"]:hover,
+:root:not([data-theme="light"]) input[type="email"]:hover,
+:root:not([data-theme="light"]) input[type="url"]:hover,
+:root:not([data-theme="light"]) select:hover,
+:root:not([data-theme="light"]) textarea:hover {
+    border-color: rgba(245, 245, 247, 0.18);
+}
+:root:not([data-theme="light"]) input:not([type]):focus,
+:root:not([data-theme="light"]) input[type="text"]:focus,
+:root:not([data-theme="light"]) input[type="password"]:focus,
+:root:not([data-theme="light"]) input[type="number"]:focus,
+:root:not([data-theme="light"]) input[type="email"]:focus,
+:root:not([data-theme="light"]) input[type="url"]:focus,
+:root:not([data-theme="light"]) select:focus,
+:root:not([data-theme="light"]) textarea:focus {
+    border-color: var(--proton-accent);
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(245, 245, 247, 0.16);
+}
+
+/* 下拉箭头改为 Apple 次级灰 */
+:root:not([data-theme="light"]) select {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath fill='%23a1a1a6' d='M6 8L1 3h10z'/%3E%3C/svg%3E");
+}
+
+/* 复选框/开关：关闭态用 base-300(#424245)，focus 用 3px primary 18% 柔光环 */
+:root:not([data-theme="light"]) input[type="checkbox"] {
+    background: #424245;
+    border: 1px solid rgba(245, 245, 247, 0.08);
+}
+:root:not([data-theme="light"]) input[type="checkbox"]:focus-visible {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(245, 245, 247, 0.18);
+}
+:root:not([data-theme="light"]) input[type="checkbox"]:checked {
+    background: var(--proton-accent);
+    border-color: var(--proton-accent);
+}
+:root:not([data-theme="light"]) input[type="checkbox"]:checked::after {
+    background: #1d1d1f;
+}
+:root:not([data-theme="light"]) input[type="checkbox"]:disabled:hover {
+    background: #424245;
+}
+
+/* 卡片：base-200 背景、12px 圆角、无深度阴影 */
+:root:not([data-theme="light"]) .cbi-section {
+    background: var(--proton-card-solid);
+    border: 1px solid var(--proton-border);
+    border-radius: var(--proton-radius);
+    box-shadow: none;
+}
+:root:not([data-theme="light"]) .cbi-section:hover {
+    border-color: rgba(245, 245, 247, 0.14);
+    box-shadow: none;
+}
+
+/* 表格：去边框阴影，极淡斑马纹 */
+:root:not([data-theme="light"]) table {
+    background: transparent;
+    box-shadow: none;
+}
+:root:not([data-theme="light"]) th {
+    background: transparent;
+    color: var(--proton-fg-secondary);
+}
+:root:not([data-theme="light"]) tbody tr:nth-child(even) {
+    background: rgba(245, 245, 247, 0.03);
+}
+:root:not([data-theme="light"]) tr:hover {
+    background: rgba(245, 245, 247, 0.06);
+}
+
+/* 导航：菜单条用 menu-bg、去阴影，选中项近白加粗 */
+:root:not([data-theme="light"]) #menubar {
+    background: var(--proton-menu-bg);
+    box-shadow: none;
+}
+:root:not([data-theme="light"]) #mainmenu .mainmenu.l1>li.selected>a,
+:root:not([data-theme="light"]) #mainmenu li.selected>a {
+    color: var(--proton-accent);
+    background: rgba(245, 245, 247, 0.1);
+    font-weight: 600;
+}
+:root:not([data-theme="light"]) #mainmenu .mainmenu.l1>li>a:hover {
+    background: rgba(245, 245, 247, 0.05);
+    color: var(--proton-fg);
+}
+:root:not([data-theme="light"]) #mainmenu .mainmenu.l2>li>a:hover {
+    background: rgba(245, 245, 247, 0.05);
+    color: var(--proton-fg);
 }
